@@ -1,0 +1,40 @@
+body {
+  overflow-x: hidden;
+}
+
+body p {
+  font-size: 15px;
+}
+
+.imge1 img {
+  height: 88.3vh;
+  object-fit: cover;
+}
+
+.image .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.column {
+  grid-column: span 3;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: -17px;
+}
+
+.ptpt {
+  object-fit: cover;
+  height: 40vh;
+}
+
+.image img {
+  filter: hue-rotate(200deg) sepia(80%) saturate(-200%);
+}
